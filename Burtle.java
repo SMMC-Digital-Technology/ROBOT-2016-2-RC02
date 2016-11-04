@@ -5,7 +5,7 @@ import lejos.util.*;
 The Burtle program and robot will attempt to find a light source
 through a maze.
 
-Author Seth East
+Author Seth East, Josephine Brogden, James Bower
 
 */
 
@@ -33,7 +33,18 @@ public class Burtle {
 	
 	private void run(){
 		Delay.msDelay(1000);
-		
+		int level = ultra.getDistance();
+		int josephine = 1;
+		while (!Button.ENTER.isDown()){
+			while (josephine == 1) {
+				if (ultra.getDistance() < 5) {
+					Motor.A.forward();
+					Motor.C.forward();
+				} else {
+				Motor.C.forward();
+				}
+			}
+		}
 	}
 	
 	public static void main (String[] args) {
