@@ -5,25 +5,18 @@ import lejos.util.*;
 The Burtle program and robot will attempt to find a light source
 through a maze.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 Author James Bower, Josephine Brogden & Seth East
 =======
 Author Seth East
->>>>>>> 4205b1c08172ba108978ccb970803786c57410d5
 =======
 Author Seth East, Josephine Brogden, James Bower
->>>>>>> origin/master
-
 */
 
 public class Burtle {
-	
-<<<<<<< HEAD
+
 	//sensors vaules
-=======
 	//sensors created
->>>>>>> 4205b1c08172ba108978ccb970803786c57410d5
 	
 	UltrasonicSensor ultra;
 
